@@ -1,0 +1,141 @@
+@font-face {
+    src: url(images/peachyday-demo.ttf);
+    font-family: Peaches;
+}
+
+@font-face {
+    src: url(images/Papernotes-Sketch.ttf);
+    font-family: Sketch;
+}
+
+body {
+    text-align: center;
+    font-family: Peaches;
+    background: linear-gradient(#560BAD, #CED4DA, black);
+    color: #ffffff;
+    font-size: 28px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+    
+}
+
+h2, footer {
+    color: #C8B6FF;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 20%;
+    border: 6px solid black;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    color: #ffffff;
+}
+
+#bday-date {
+    margin: 0;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 250px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-wrapper.jpg");
+    background-size: cover;
+}
+
+#gift-img-whoops:hover {
+    background-image: url("images/whoops.webp");
+}
+
+#gift-img-hug:hover {
+    background-image: url("images/monkeyhug.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius-dog.gif");
+}
+
+#gift-img-crazy:hover {
+    background-image: url("images/crazy.gif");
+}
+
+#gift-img-insecure:hover {
+    background-image: url("images/hide.webp");
+}
+
+#gift-img-prrr:hover {
+    background-image: url("images/sexy.webp");
+}
+
+#gift-img-hate:hover {
+    background-image: url("images/hatred.webp");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cherrysh.webp");
+    
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    font-family: Sketch;
+    color: #C8B6FF;
+}
+
+#footer2 {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    font-family: Sketch;
+    color: #E71D38;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
